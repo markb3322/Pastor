@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Pastor Sermon Platform | Bible Study & Sermon AI</title>
+    <meta name="description" content="Sermon platform for pastors with Bible study tools and AI-powered sermon outlines" />
+    <meta name="theme-color" content="#4A90E2" />
+    <link rel="manifest" href="/manifest.json" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        background-color: #F5F7FA;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Simple error handling
+      window.addEventListener('error', function(e) {
+        console.error('App error:', e.error);
+      });
+    </script>
+    <script src="/static/js/bundle.js"></script>
+  </body>
+</html>
